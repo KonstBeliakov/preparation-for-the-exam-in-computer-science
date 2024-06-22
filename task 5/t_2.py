@@ -9,7 +9,7 @@ for n in range(1, 10 ** 5):
     if a.count('2') % 2 == 0:
         a += '555'
     else:
-        a += '1'
+        a = '1' + a
 
     r = int(a, 7)
     if r < 3799:
