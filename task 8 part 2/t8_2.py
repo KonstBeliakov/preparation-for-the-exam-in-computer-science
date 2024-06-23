@@ -1,0 +1,1 @@
+print(sum([all([any([i[j + k] in 'мнгд' for k in range(3)]) for j in range(len(i) - 2)]) for i in __import__('itertools').permutations('мнегода', 7)]))
